@@ -48,8 +48,7 @@ function checkAnswer(curLevel) {
       }, 200);
 
       $("#level-title").text("Game Over, Press Any Key to Restart");
-
-      //2. Call startOver() if the user gets the sequence wrong.
+      
       startOver();
     }
 
